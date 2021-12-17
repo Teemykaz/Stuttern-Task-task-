@@ -1,0 +1,725 @@
+@media (Max-width: 768px) {
+    body {
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100%;
+    }
+    .main-container {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-between;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .main-container img {
+        width: 20px;
+    }
+    .nav-input :nth-child(3) {
+        display: none;
+    }
+    .udemy-logo img {
+        width: 70px;
+        padding-left: 30px;
+    }
+    .shop-cart {
+        display: none;
+    }
+    .categories {
+        display: none;
+    }
+    .nav-buttons {
+        display: flex;
+        flex-direction: row;
+    }
+    .nav-input {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+    }
+    .nav-input div :nth-child(1) {
+        padding-left: 20px;
+    }
+    .nav-words,
+    .nav-buttons {
+        display: none;
+    }
+    main .black-friday {
+        display: none;
+    }
+    main .course-selection .select {
+        display: none;
+    }
+    .course-selection img {
+        width: 100%;
+    }
+    main .course-selection .sales {
+        margin-top: 10px;
+    }
+    .course-selection .sales {
+        margin-left: 10px;
+    }
+    .sales p {
+        opacity: .7;
+    }
+    .courses {
+        width: 100%;
+        margin-left: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        white-space: nowrap;
+    }
+    .courses :nth-child(4),
+     :nth-child(5),
+     :nth-child(6),
+     :nth-child(7) {
+        display: none;
+    }
+    .courses div {
+        padding-right: 10px;
+    }
+    .python-head,
+    .Python-career {
+        display: none;
+    }
+    .python-parts {
+        margin-left: 10px;
+        margin-top: 20px;
+        border: 1px solid rgb(219, 214, 214);
+        border-width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        margin-bottom: 40px;
+    }
+    .python-parts div+div {
+        padding-left: 20px;
+    }
+    .pp2,
+    .pp3,
+    .pp4,
+    .pp5 {
+        display: none;
+    }
+    .view {
+        margin-left: 10px;
+    }
+    .Python-part2 {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+    }
+    .Python-part2 div+div {
+        padding-left: 20px;
+    }
+    .Three {
+        display: none;
+    }
+    .python-three {
+        margin-left: 10px;
+    }
+    .python-mobile {
+        display: flex;
+        flex-direction: column;
+    }
+    .mobil1,
+    .mobil2 {
+        display: flex;
+        white-space: nowrap;
+        width: 100%;
+    }
+    .mobil1 {
+        margin-bottom: 10px;
+    }
+    .mobil1 div+div,
+    .mobil2 div+div {
+        margin-left: 10px;
+    }
+    .mobil1 div,
+    .mobil2 div {
+        border: 1px solid black;
+        border-radius: 20px;
+        padding: 5px 5px;
+    }
+    .featured-top1 {
+        display: none;
+    }
+    .featured-top2 {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 10px;
+    }
+    .featured-topics div button {
+        padding: 5px 90px;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+        white-space: nowrap;
+    }
+    .featured-topics h2 {
+        margin-left: 10px;
+    }
+    .instructor {
+        width: 100%;
+    }
+    .instructor img {
+        width: 100%;
+    }
+    .instruction {
+        text-align: center;
+    }
+    .instruction button {
+        border: 0px;
+        outline: 0px;
+        padding: 5px 80px;
+        background-color: black;
+        color: white;
+    }
+    .Trusted {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .Trusted-logo {
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+    .Trusted-logo img {
+        padding-right: 10px;
+    }
+    .udemy-business {
+        width: 100%;
+        text-align: center;
+        font-size: 10px;
+    }
+    .udemy-business .part-one img {
+        width: 160px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+    .udemy-business .part-two img {
+        width: 200px;
+        margin-top: 30px;
+    }
+    .udemy-business .part-one div+div {
+        margin-bottom: 10px;
+    }
+    .udemy-business button {
+        padding: 5px 80px;
+        color: white;
+        background-color: black;
+        outline: 0px;
+        border: 0px;
+    }
+    .Transform {
+        width: 100%;
+        text-align: center;
+    }
+    .Transform img {
+        margin-top: 20px;
+        width: 250px;
+    }
+    .Transform-parttwo div+div {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .Transform button {
+        padding: 5px 100px;
+        color: white;
+        background-color: black;
+    }
+    Footer {
+        width: 100%;
+        margin-top: 40px;
+        border: 1px solid black;
+        padding: 20px 20px;
+        background-color: black;
+        color: white;
+        font-size: 12px;
+    }
+    Footer button {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        background-color: black;
+        color: white;
+        margin-bottom: 10px;
+        border-color: white;
+        outline: 0px;
+        padding-left: 10px;
+        padding-right: 30px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+    Footer button img {
+        padding-right: 5px;
+    }
+    .footer-img img {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 50px;
+    }
+    .footer-button1 {
+        display: none;
+    }
+    .Footer-end div+div {
+        display: flex;
+        align-content: center;
+        font-size: 10px;
+    }
+    .Footer-end div+div img {
+        width: 10px;
+        margin-right: 5px;
+    }
+}
+
+@media (min-width: 769px) {
+    .main-container {
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        padding-top: 20px;
+    }
+    .menu,
+    .cart {
+        display: none;
+    }
+    .categories,
+    .nav-words,
+    .shop-cart {
+        padding-top: 10px;
+    }
+    img {
+        width: 20px;
+    }
+    .nav-bar {
+        margin-top: 20px;
+    }
+    .nav-buttons img {
+        width: 13px;
+    }
+    .nav-input {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        border: 1px solid black;
+        width: 550px;
+        height: 35px;
+        padding-top: 5px;
+        padding-left: 10px;
+        border-radius: 40px;
+    }
+    .nav-words :nth-child(1) {
+        display: none;
+    }
+    .nav-words {
+        display: flex;
+        align-content: center;
+    }
+    .nav-words div {
+        margin-left: 20px;
+    }
+    .nav-input img {
+        padding-top: 5px;
+    }
+    .nav-input input {
+        margin-left: 20px;
+        border: 0;
+        outline: 0;
+        margin-top: 5px;
+    }
+    .nav-buttons {
+        display: flex;
+        flex-direction: row;
+    }
+    .sign-button button {
+        background-color: black;
+        color: white;
+        outline: 0px;
+    }
+    .button1 button {
+        background-color: white;
+        outline: 0px;
+    }
+    .nav-buttons div {
+        margin-right: 10px;
+    }
+    .nav-buttons button {
+        padding: 10px 10px;
+    }
+    .udemy-logo img {
+        width: 90px;
+        padding-bottom: 10px;
+    }
+    .black-friday {
+        background-image: url(./a303c795-6589-4ce9-bdda-b7aef7f09288.jpg);
+        height: 400px;
+        margin-top: 10px;
+    }
+    .black-fridaybox {
+        border: 1px solid red;
+        width: 300px;
+        height: 230px;
+        margin-left: 40px;
+        position: absolute;
+        top: 100px;
+        background-color: white;
+        padding: 10px 15px;
+        display: flex;
+        flex-direction: column;
+        border: 0px;
+        outline: 0px;
+    }
+    .Friday-box {
+        border: 1px solid black;
+        margin-top: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px 10px;
+    }
+    .Friday-box input {
+        border: 0px;
+        outline: 0px;
+    }
+    .friday-text {
+        font-size: 20px;
+    }
+    .course-selection {
+        display: flex;
+        flex-direction: column;
+    }
+    .courses {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-right: 10px;
+        margin-top: 20px;
+        width: 800px;
+    }
+    .python-container {
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 20px;
+    }
+    .Python-career {
+        margin-bottom: 20px;
+        width: 800px;
+    }
+    .python-head {
+        margin: 0;
+    }
+    .Python-career button {
+        padding: 10px;
+        color: black;
+        background-color: white;
+        outline: 0;
+    }
+    .python-parts img {
+        width: 200px;
+        border: 1px solid black;
+    }
+    .pp1-price {
+        text-decoration: line-through;
+    }
+    .python-parts {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .PP6 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        background-color: #f0f6ff;
+        padding: 15px 15px;
+    }
+    .pp6i {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 300px;
+        /* margin-right: 200px; */
+    }
+    .pp6i img {
+        border: 1px solid black;
+        padding: 10px;
+        border-radius: 50px;
+        margin-right: 10px;
+    }
+    .pp6ii {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 350px;
+        /* margin-right: 200px; */
+    }
+    .pp6ii img {
+        border: 1px solid black;
+        padding: 10px;
+        border-radius: 50px;
+        margin-right: 10px;
+    }
+    .pp6iii {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 350px;
+        /* margin-right: 100px; */
+    }
+    .pp6iii img {
+        border: 1px solid black;
+        padding: 10px 10px;
+        border-radius: 50px;
+        margin-right: 10px;
+    }
+    .python-parts button {
+        background-color: yellow;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+    .Python-part2 button {
+        background-color: yellow;
+        margin-bottom: 15px;
+        margin-top: 10px;
+    }
+    .Python-part2 img {
+        width: 200px;
+        border: 1px solid black;
+    }
+    .Python-part2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .python-three img {
+        width: 250px;
+    }
+    .python-three {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .python-mobile {
+        display: none;
+    }
+    .python-fig {
+        display: flex;
+    }
+    .four {
+        display: flex;
+    }
+    .featured-topics {
+        padding: 20px 20px;
+        background-color: rgb(246, 249, 252);
+    }
+    .new-div {
+        display: flex;
+    }
+    .featured-top1 {
+        display: flex;
+        margin-bottom: 10px;
+    }
+    .featured-top1 div {
+        padding-right: 80px;
+    }
+    .featured-top2 {
+        display: none;
+    }
+    .featured-topics .first-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-right: 150px;
+    }
+    .featured-topics .second-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-right: 80px;
+    }
+    .featured-topics .third-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-right: 80px;
+    }
+    .featured-topics .fourth-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-right: 80px;
+    }
+    .featured-topics button {
+        padding: 10px;
+        background-color: white;
+        outline: 0px;
+    }
+    .instructor {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 100px;
+        padding-top: 40px;
+    }
+    .instructor img {
+        width: 400px;
+    }
+    .instruction {
+        padding-top: 100px;
+        padding-left: 80px;
+    }
+    .instructor-words {
+        width: 300px;
+        font-size: 20px;
+    }
+    .instruction button {
+        padding: 10px;
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        font-weight: 20px;
+    }
+    .Trusted {
+        margin-top: 60px;
+        margin-bottom: 60px;
+        background-color: rgb(245, 246, 248);
+    }
+    .Trusted-companies {
+        margin-left: 550px;
+        padding-top: 10px;
+    }
+    .Trusted-logo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 450px;
+    }
+    .Trusted-logo img {
+        width: 50px;
+    }
+    .Trusted-logo div {
+        padding-right: 60px;
+    }
+    .udemy-business {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 70px;
+    }
+    .udemy-business .part-two img {
+        width: 400px;
+    }
+    .udemy-business .part-one img {
+        width: 300px;
+        padding-bottom: 10px;
+    }
+    .business-text {
+        width: 400px;
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+    .udemy-business .part-one {
+        padding-top: 130px;
+        padding-right: 30px;
+    }
+    .udemy-business button {
+        padding: 15px 15px;
+        color: white;
+        background-color: black;
+        font-size: 15px;
+    }
+    .Transform {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .Transform img {
+        width: 400px;
+    }
+    .Transform-parttwo {
+        width: 350px;
+        padding-top: 60px;
+        padding-left: 70px;
+    }
+    .transform-text {
+        font-size: 20px;
+    }
+    .Transform-parttwo button {
+        margin-top: 20px;
+        padding: 10px 10px;
+        color: white;
+        background-color: black;
+        font-size: 15px;
+    }
+    footer {
+        color: white;
+        background-color: rgb(29, 28, 28);
+        padding-bottom: 50px;
+        padding-top: 30px;
+    }
+    .footer-list {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 40px;
+        margin-right: 20px;
+    }
+    .footer-list1,
+    .footer-list2 {
+        padding-right: 60px;
+    }
+    .footer-list1 div,
+    .footer-list2 div,
+    .footer-list3 div {
+        padding-bottom: 10px;
+    }
+    .footer-button1 button {
+        border: 1px solid white;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: rgb(29, 28, 28);
+        color: white;
+        padding-left: 10px;
+        padding-right: 50px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .footer-button {
+        display: none;
+    }
+    .footer-button1 button span {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .Footer-end img {
+        width: 10px;
+    }
+    .footer-img img {
+        width: 80px;
+    }
+    .Footer-end {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 40px;
+        padding-right: 30px;
+        padding-top: 50px;
+    }
+}
