@@ -14,7 +14,7 @@
         justify-content: space-between;
         margin-top: 15px;
         margin-bottom: 10px;
-        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+        /* box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1); */
         padding-left: 10px;
         padding-right: 10px;
     }
@@ -361,12 +361,12 @@
         width: 90px;
         padding-bottom: 10px;
     }
-    .black-friday {
+    .newtoudemy {
         background-image: url(./a303c795-6589-4ce9-bdda-b7aef7f09288.jpg);
         height: 400px;
         margin-top: 10px;
     }
-    .black-fridaybox {
+    .newtoudemybox {
         border: 1px solid red;
         width: 300px;
         height: 230px;
